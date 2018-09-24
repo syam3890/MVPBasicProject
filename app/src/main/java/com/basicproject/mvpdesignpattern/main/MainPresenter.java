@@ -7,4 +7,5 @@ public class MainPresenter implements MainContract.Presenter {
     MainPresenter(MainContract.MvpView view) {
         mView = view;
     }
+
 }
