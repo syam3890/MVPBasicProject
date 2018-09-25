@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity implements MainContract.MvpV
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.main_activity);
         MainActivityBinding mainActivityBinding = DataBindingUtil.setContentView(MainActivity.this, R.layout.main_activity);
         mPresenter = new MainPresenter(this);
         mainActivityBinding.setPresenter(mPresenter);
