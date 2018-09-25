@@ -1,5 +1,7 @@
 package com.basicproject.mvpdesignpattern.main;
 
+import android.view.View;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -27,11 +29,13 @@ public class MainPresenterTest {
 
     @Test
     public void handleSignInButtonClick() {
+//        mPresenter.handleSignInButtonClick();
         verify(mView).showSignInScreen();
     }
 
     @Test
     public void handleSignupbuttonClick() {
+//        mPresenter.handleSignupbuttonClick();
         verify(mView).showSignUpScreen();
     }
 }

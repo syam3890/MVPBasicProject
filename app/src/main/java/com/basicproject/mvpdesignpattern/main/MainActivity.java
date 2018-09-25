@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.MvpV
         mainActivityBinding.setPresenter(mPresenter);
     }
 
-    /////   View methods     /////
+    /////        View methods          /////
 
     @Override
     public void showSignInScreen() {

@@ -11,7 +11,7 @@ public class MainPresenter implements MainContract.Presenter {
     }
 
 
-    /////   Presenter methods    /////
+    /////      Presenter methods       /////
 
     @Override
     public void handleSignInButtonClick(View view) {
