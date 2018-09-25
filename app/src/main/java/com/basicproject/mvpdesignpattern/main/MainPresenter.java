@@ -1,5 +1,7 @@
 package com.basicproject.mvpdesignpattern.main;
 
+import android.view.View;
+
 public class MainPresenter implements MainContract.Presenter {
 
     private MainContract.MvpView mView;
@@ -12,12 +14,12 @@ public class MainPresenter implements MainContract.Presenter {
     /////   Presenter methods    /////
 
     @Override
-    public void handleSignInButtonClick() {
+    public void handleSignInButtonClick(View view) {
         mView.showSignInScreen();
     }
 
     @Override
-    public void handleSignupbuttonClick() {
+    public void handleSignupbuttonClick(View view) {
         mView.showSignUpScreen();
     }
 }

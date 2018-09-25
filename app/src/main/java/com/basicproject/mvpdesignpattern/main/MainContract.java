@@ -1,5 +1,7 @@
 package com.basicproject.mvpdesignpattern.main;
 
+import android.view.View;
+
 public interface MainContract {
 
     interface MvpView {
@@ -11,8 +13,8 @@ public interface MainContract {
     }
 
     interface Presenter {
-        void handleSignInButtonClick();
+        void handleSignInButtonClick(View view);
 
-        void handleSignupbuttonClick();
+        void handleSignupbuttonClick(View view);
     }
 }
