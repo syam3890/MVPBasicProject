@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.MvpV
         Toast.makeText(this, "You'll be directed to SignIn Screen ", Toast.LENGTH_SHORT).show();
     }
 
+
     @Override
     public void showSignUpScreen() {
         Toast.makeText(this, "You'll be directed to SignUp Screen ", Toast.LENGTH_SHORT).show();
