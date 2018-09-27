@@ -3,4 +3,6 @@
     <dimen name="bottom_margin">4dp</dimen>
     <dimen name="activity_margin">16dp</dimen>
     <dimen name="activity_padding">16dp</dimen>
+
+    <dimen name="edittext_padding">8dp</dimen>
 </resources>

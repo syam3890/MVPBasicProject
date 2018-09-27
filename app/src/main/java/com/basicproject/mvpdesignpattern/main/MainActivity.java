@@ -1,5 +1,6 @@
 package com.basicproject.mvpdesignpattern.main;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.widget.Toast;
 
 import com.basicproject.mvpdesignpattern.R;
 import com.basicproject.mvpdesignpattern.databinding.MainActivityBinding;
+import com.basicproject.mvpdesignpattern.main.signin.SignInActivity;
 
 public class MainActivity extends AppCompatActivity implements MainContract.MvpView {
 
@@ -25,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements MainContract.MvpV
     @Override
     public void showSignInScreen() {
         Toast.makeText(this, "You'll be directed to SignIn Screen ", Toast.LENGTH_SHORT).show();
+
+        startActivity(new Intent(this, SignInActivity.class));
+
     }
 
 

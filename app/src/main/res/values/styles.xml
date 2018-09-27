@@ -43,5 +43,24 @@
         <item name="android:src">@android:drawable/sym_def_app_icon</item>
     </style>
 
+    <style name="EditText" parent="MatchWrap">
+        <item name="android:background">@drawable/buttonbackground</item>
+        <item name="android:padding">@dimen/edittext_padding</item>
+        <item name="android:textColorHint">@android:color/holo_green_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">@dimen/bottom_margin</item>
+    </style>
+
+    <style name="EditText.Mobile">
+        <item name="android:hint">Mobile</item>
+        <item name="android:inputType">phone</item>
+        <item name="android:maxLength">10</item>
+    </style>
+
+    <style name="EditText.Password">
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
 
 </resources>
